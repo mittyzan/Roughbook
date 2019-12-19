@@ -1,0 +1,19 @@
+sudo apt-get update
+    3  sudo apt-get install docker.io -y
+    4  cls
+    5  clear
+    6  sudo systemctl status docker
+    7  clear
+    8  whoami
+    9  sudo usermod -aG docker mittylab
+   10  $user
+   11  exit
+   12  clear
+   13  docker run -it hello-world
+   14  docker run -it ubuntu bash
+   15  clear
+   16  docker ps
+   17  docker run -it hello-world
+   18  docker ps
+   19  docker ps -a
+   20  history
