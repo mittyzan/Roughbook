@@ -1,0 +1,158 @@
+1  clear
+    2  sudo apt-get update
+    3  sudo apt-get install docker.io -y
+    4  cls
+    5  clear
+    6  sudo systemctl status docker
+    7  clear
+    8  whoami
+    9  sudo usermod -aG docker mittylab
+   10  $user
+   11  exit
+   12  docker run -i -t alpine /bin/sh
+   13  docker ps
+   14  docket attach 9ff74e46c5f5
+   15  docker attach 9ff74e46c5f5
+   16  docker ps
+   17* 
+   18  docker ps
+   19  docker unpause 9ff74e46c5f5
+   20  docker attach 9ff74e46c5f5
+   21  docker run -it --name mittyalpine alpine/bin/sh
+   22  docker run -it --name mittyalpine alpine /bin/sh
+   23  clear
+   24  docker ps
+   25  docker ps -a
+   26  docker start mittyalpine
+   27  docker ps
+   28  docker attach cafe99f8bb59        
+   29  docker diff mittyalpine
+   30  pwd
+   31  cd /var
+   32  ls
+   33  cd /lib
+   34  ls
+   35  cd /tmp
+   36  ls
+   37  cd /home
+   38  ls
+   39  cd ubuntu/
+   40  ls
+   41  cd root/
+   42  cd var
+   43  cd var/
+   44  cd /var
+   45  ls
+   46  cd /run
+   47  ls
+   48  cd /doc
+   49  cd /docker
+   50  cd docker/
+   51  sudo su
+   52  ls
+   53  cd containerd/
+   54  ls
+   55  sudo su
+   56  clear
+   57* cd/home
+   58  c /home
+   59  cd /home
+   60  ls
+   61  cd mittylab/
+   62  cd /mittylab
+   63  cd /home
+   64  cd /mittylab
+   65  cd mittylab/
+   66  claer
+   67  clear
+   68  ls
+   69  pwd
+   70  clear
+   71  docker volume create mittyvolume
+   72  docker volume ls
+   73  docker inspect mittyvolume
+   74  docker run -it --rm -v mittyvolume:/mitty alpine /bin/sh
+   75  docker inspect mittyvolume
+   76  sudo su
+   77  clear
+   78  docker inspect mittyvolume
+   79  sudo su
+   80  clear
+   81  user ubuntu
+   82  id ubuntu
+   83  su - ubuntu
+   84  clear
+   85  docker run -p 8080:80 -d nginx
+   86  docker ps
+   87  clear
+   88  docker ps -a
+   89  docker -rm c2bf3cc883f2        
+   90  clear
+   91  docker --rm c2bf3cc883f2        
+   92  docker command
+   93  docker COMMAND --help
+   94  clear
+   95  docker ps -a
+   96  docker --rm 47f9b1685170
+   97  clear
+   98  docker rm 47f9b1685170
+   99  docker ps -a
+  100  docker rm c2bf3cc883f2
+  101  docker ps -a
+  102  docker rm bb4e1348d0c0,6103755e4c88
+  103  docker rm bb4e1348d0c0 6103755e4c88
+  104  docker 1472b6b1a1da 70ba96bdc7d1 9ff74e46c5f5 
+  105  docker 1472b6b1a1d 70ba96bdc7d1 9ff74e46c5f5
+  106  pwd
+  107  mkdir our-alpine
+  108  pwd
+  109  cd our-alpine/
+  110  ls
+  111  pwd
+  112  clear
+  113  docker ps
+  114  docker stop 47f9b1685170
+  115  docker ps
+  116  clear
+  117  vi dockerfile
+  118  ls
+  119  vi Dockerfile
+  120  ls
+  121  cat Dockerfile
+  122  clear
+  123  ls -ltr
+  124  docker build . -t mitty-alpine
+  125  docker images
+  126  docker ps
+  127  docker ps -a
+  128  docker rm 1472b6b1a1da
+  129  docker rm 70ba96bdc7d1
+  130  clear
+  131  docker run mitty-alpine
+  132  cat Dockerfile 
+  133  docker login
+  134  docker images
+  135  docker tag mitty-alpine:latest mittyzan/mitty-alpine
+  136  docker push
+  137  docker push mittyzan/mitty-alpine
+  138  docker images
+  139  docker ps -a
+  140  docker rm 9ff74e46c5f5
+  141  docker rm cafe99f8bb59
+  142  docker ps -a
+  143  cd 
+  144  clear
+  145  git clone git@github.com:mittyzan/facebooc.git
+  146  ls
+  147  git clone git@github.com:mittyzan/facebooc.git
+  148  git clone https://github.com/mittyzan/facebooc.git
+  149  ls
+  150  docker run -itd --name fb -p 8085:16000 ubuntu bash
+  151  cd
+  152  ls
+  153  docker cp facebooc fb:/opt
+  154  docker ps
+  155  docker attach 9d5b054eb132
+  156  docker container commit fb mittyzan/facebooc:v1
+  157  docker image push mittyzan/facebooc:v1
+  158  history
