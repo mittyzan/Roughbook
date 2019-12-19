@@ -13,3 +13,11 @@ docker pause - Pausing Container
 docker run -it --name mittyalpine alpine/bin/sh - Naming a Container
 docker start 'container name'
 docker diff mittyalpine - difference between original image and custom image
+docker volume create 'name for volume' - create a volume
+docker inspect 'name for volume'
+docker run -it --rm -v mittyvolume:/mitty alpine /bin/sh  - creates a folder inside volume and spins a container
+"create 2 files" and exit
+run docker inspect mittyvolume and sudo to the Mountpoint and check if files are retained
+
+
+
