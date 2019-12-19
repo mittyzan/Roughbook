@@ -12,3 +12,4 @@ docker attach 'container ID' - attaching back to container
 docker pause - Pausing Container
 docker run -it --name mittyalpine alpine/bin/sh - Naming a Container
 docker start 'container name'
+docker diff mittyalpine - difference between original image and custom image
