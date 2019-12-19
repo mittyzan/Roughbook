@@ -1,4 +1,5 @@
-1  clear
+mittylab@instance-mithesh:~$ history
+    1  clear
     2  sudo apt-get update
     3  sudo apt-get install docker.io -y
     4  cls
@@ -156,3 +157,60 @@
   156  docker container commit fb mittyzan/facebooc:v1
   157  docker image push mittyzan/facebooc:v1
   158  history
+  159  clear
+  160  1  clear
+  161  clear
+  162  docker pull mcr.microsoft.com/powershell
+  163  ls
+  164  cd our-alpine/
+  165  ls
+  166  docker ps
+  167  docker stop 9d5b054eb132        
+  168  docker stop 9d5b054eb132
+  169  docker ps
+  170  clear
+  171  cd
+  172  clear
+  173  docker swarm join --token SWMTKN-1-4ch1u99aeleqt4t412ve76hnldxwkwsrwg0heg1u4bu36z9ozl-binltr41999l7th7oyt1nt3sn 52.172.31.96:2377
+  174  docker info
+  175  docker swarm join --token SWMTKN-1-4ch1u99aeleqt4t412ve76hnldxwkwsrwg0heg1u4bu36z9ozl-binltr41999l7th7oyt1nt3sn 52.172.31.96:2377
+  176  docker swarm leave
+  177  docker swarm join --token SWMTKN-1-4ch1u99aeleqt4t412ve76hnldxwkwsrwg0heg1u4bu36z9ozl-binltr41999l7th7oyt1nt3sn 52.172.31.96:2377
+  178  docker swarm leave
+  179  docker swarm join --token SWMTKN-1-4ch1u99aeleqt4t412ve76hnldxwkwsrwg0heg1u4bu36z9ozl-binltr41999l7th7oyt1nt3sn 52.172.31.96:2377
+  180  docker node ls
+  181  clear
+  182  docker node ls
+  183  docker ps
+  184  docker node ls
+  185  docker ps
+  186  docker stop 1434ba56f1d0
+  187  docker ps
+  188  docker swarm leave
+  189  docker swarm init --advertise-addr 35.222.231.213
+  190  clear
+  191  docket nopde ls
+  192  docket node ls
+  193  docker node ls
+  194  whoami
+  195  docker service create --name vote --replicas 4 -p 8080:80 instavote/vote:movies
+  196  docker ps
+  197  ifconfig
+  198  clear
+  199  docker ps
+  200  docker service update --image instavote/vote:indent vote
+  201  docker service update --image instavote/vote:latest vote
+  202  clear
+  203  docker service rm vote --force
+  204  docker service rm --force vote
+  205  docker service stop
+  206  docker service stop vote
+  207  docker service rm vote
+  208  clear
+  209* 
+  210  docker node ls
+  211  docker ps
+  212  docker ps vote
+  213  docker swarm leave --force
+  214  clear
+  215  history
