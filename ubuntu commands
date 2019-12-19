@@ -6,3 +6,9 @@ docker run -it hello-world
 docker run -it ubuntu bash
 docker ps
 docker ps -a
+docker run -i -t alpine /bin/sh : i = interative : -t = terminal : /bin/sh = entry point to OS  
+ctrl +p & ctrl + q - detach from container
+docker attach 'container ID' - attaching back to container
+docker pause - Pausing Container
+docker run -it --name mittyalpine alpine/bin/sh - Naming a Container
+docker start 'container name'
