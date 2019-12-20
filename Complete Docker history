@@ -214,3 +214,4 @@ mittylab@instance-mithesh:~$ history
   213  docker swarm leave --force
   214  clear
   215  history
+  216  docker logs Container ID
