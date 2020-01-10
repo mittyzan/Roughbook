@@ -24,3 +24,4 @@ docker build -t "Image name:tag(Mandatory)" .(location of the Dockerfile)
 
 RUN - Executes all commands while the Docker script is running
 CMD - Executes all commands after the the container is being deployed.
+ENTRYPOINT -  After deploying a container, if the Container needs to be sustained. Enter with the CLI entry point.
