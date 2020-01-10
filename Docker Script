@@ -20,4 +20,4 @@ LABEL apply key/value metadata to your images, containers, or daemons.
 
 To execute the script
 
-docker build -t "Image name:tag" .(location of the Dockerfile)
+docker build -t "Image name:tag(Mandatory)" .(location of the Dockerfile)
