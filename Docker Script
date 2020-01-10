@@ -25,3 +25,7 @@ docker build -t "Image name:tag(Mandatory)" .(location of the Dockerfile)
 RUN - Executes all commands while the Docker script is running
 CMD - Executes all commands after the the container is being deployed.
 ENTRYPOINT -  After deploying a container, if the Container needs to be sustained. Enter with the CLI entry point.
+ADD - downloads files and contents from local or remote machine to the container image
+COPY - copies local data to the container image
+WORKDIR - define the working directory once we attach to a container
+USER - Defines which user will be logged in as while modifying or compiling the image.
